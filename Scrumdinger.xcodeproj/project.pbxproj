@@ -66,6 +66,7 @@
 				95D46F4F2AAF9401003B801A /* DetailEditView.swift */,
 				95C445E82AAE022A009E3597 /* DetailView.swift */,
 				95085E272AB24F3E00980845 /* MeetingHeaderView.swift */,
+				AAAE8021294793AB0099DABC /* MeetingView.swift */,
 				95EB32A92AADE0CD0032A1B5 /* ScrumsView.swift */,
 				955FDCD72AB0F49C0066AE86 /* ThemeView.swift */,
 				955FDCD92AB0F8AB0066AE86 /* ThemePicker.swift */,
@@ -107,10 +108,9 @@
 		AAAE801E294793AB0099DABC /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				AAAE801F294793AB0099DABC /* ScrumdingerApp.swift */,
 				95085E2D2AB2573E00980845 /* Views */,
 				95A9F84F2AAD1A0E009CE28A /* Models */,
-				AAAE801F294793AB0099DABC /* ScrumdingerApp.swift */,
-				AAAE8021294793AB0099DABC /* MeetingView.swift */,
 				AAAE8023294793AB0099DABC /* Assets.xcassets */,
 				AAAE8025294793AB0099DABC /* Preview Content */,
 			);
