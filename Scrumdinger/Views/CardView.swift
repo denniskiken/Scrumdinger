@@ -1,15 +1,11 @@
-//
-//  CardView.swift
-//  Scrumdinger
-//
-//  Created by Dennis Kikendall on 9/9/23.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
 
 struct CardView: View {
     let scrum: DailyScrum
-    
     var body: some View {
         VStack(alignment: .leading) {
             Text(scrum.title)

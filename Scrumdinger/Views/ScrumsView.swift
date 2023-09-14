@@ -1,15 +1,12 @@
-//
-//  ScrumsView.swift
-//  Scrumdinger
-//
-//  Created by Dennis Kikendall on 9/10/23.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
 
 struct ScrumsView: View {
     @Binding var scrums: [DailyScrum]
-    
+  
     var body: some View {
         NavigationStack {
             List($scrums) { $scrum in
@@ -20,7 +17,7 @@ struct ScrumsView: View {
             }
             .navigationTitle("Daily Scrums")
             .toolbar {
-                Button(action: {} ) {
+                Button(action: {}) {
                     Image(systemName: "plus")
                 }
                 .accessibilityLabel("New Scrum")

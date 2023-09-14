@@ -1,12 +1,8 @@
-//
-//  MeetingFooterView.swift
-//  Scrumdinger
-//
-//  Created by Dennis Kikendall on 9/13/23.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
-
 
 struct MeetingFooterView: View {
     let speakers: [ScrumTimer.Speaker]
@@ -16,16 +12,14 @@ struct MeetingFooterView: View {
         guard let index = speakers.firstIndex(where: { !$0.isCompleted }) else { return nil }
         return index + 1
     }
-    
     private var isLastSpeaker: Bool {
         return speakers.dropLast().allSatisfy { $0.isCompleted }
     }
-    
     private var speakerText: String {
         guard let speakerNumber = speakerNumber else { return "No more speakers" }
         return "Speaker \(speakerNumber) of \(speakers.count)"
     }
-
+    
     var body: some View {
         VStack {
             HStack {
@@ -44,7 +38,6 @@ struct MeetingFooterView: View {
         .padding([.bottom, .horizontal])
     }
 }
-
 
 struct MeetingFooterView_Previews: PreviewProvider {
     static var previews: some View {

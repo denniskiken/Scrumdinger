@@ -1,9 +1,6 @@
-//
-//  MeetingHeaderView.swift
-//  Scrumdinger
-//
-//  Created by Dennis Kikendall on 9/13/23.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
 
@@ -11,22 +8,22 @@ struct MeetingHeaderView: View {
     let secondsElapsed: Int
     let secondsRemaining: Int
     let theme: Theme
-    
+
     private var totalSeconds: Int {
-            secondsElapsed + secondsRemaining
+        secondsElapsed + secondsRemaining
     }
     private var progress: Double {
-         guard totalSeconds > 0 else { return 1 }
-         return Double(secondsElapsed) / Double(totalSeconds)
-     }
+        guard totalSeconds > 0 else { return 1 }
+        return Double(secondsElapsed) / Double(totalSeconds)
+    }
     private var minutesRemaining: Int {
         secondsRemaining / 60
     }
     
     var body: some View {
         VStack {
-            ProgressView(value: 5, total: 15)
-                .progressViewStyle(ScrumProgressViewStyle(theme:theme))
+            ProgressView(value: progress)
+                .progressViewStyle(ScrumProgressViewStyle(theme: theme))
             HStack {
                 VStack(alignment: .leading) {
                     Text("Seconds Elapsed")
