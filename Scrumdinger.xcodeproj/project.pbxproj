@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		95085E2C2AB2570F00980845 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95085E2B2AB2570F00980845 /* ScrumTimer.swift */; };
+		9546749B2AB3EC290039E86A /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9546749A2AB3EC290039E86A /* ding.wav */; };
 		955442A22AB393D900F89C95 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955442A12AB393D900F89C95 /* AVPlayer+Ding.swift */; };
 		955442A42AB399F700F89C95 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955442A32AB399F700F89C95 /* DailyScrum.swift */; };
 		955442A62AB39A3600F89C95 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955442A52AB39A3600F89C95 /* Theme.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		95085E2B2AB2570F00980845 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		9546749A2AB3EC290039E86A /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		955442A12AB393D900F89C95 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		955442A32AB399F700F89C95 /* DailyScrum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DailyScrum.swift; path = ../../../../Downloads/ManagingStateAndLifeCycle/Complete/Scrumdinger/Models/DailyScrum.swift; sourceTree = "<group>"; };
 		955442A52AB39A3600F89C95 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
@@ -81,6 +83,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		954674992AB3EBFD0039E86A /* RResources */ = {
+			isa = PBXGroup;
+			children = (
+				9546749A2AB3EC290039E86A /* ding.wav */,
+			);
+			path = RResources;
+			sourceTree = "<group>";
+		};
 		95A9F84F2AAD1A0E009CE28A /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +128,7 @@
 				95085E2D2AB2573E00980845 /* Views */,
 				955442A72AB39A8900F89C95 /* ScrumdingerApp.swift */,
 				AAAE8023294793AB0099DABC /* Assets.xcassets */,
+				954674992AB3EBFD0039E86A /* RResources */,
 				AAAE8025294793AB0099DABC /* Preview Content */,
 			);
 			path = Scrumdinger;
@@ -197,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9546749B2AB3EC290039E86A /* ding.wav in Resources */,
 				AAAE8027294793AB0099DABC /* Preview Assets.xcassets in Resources */,
 				AAAE8024294793AB0099DABC /* Assets.xcassets in Resources */,
 			);
