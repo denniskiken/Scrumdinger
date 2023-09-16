@@ -12,7 +12,7 @@ class ScrumStore: ObservableObject {
         try FileManager.default.url(for: .documentDirectory,
                                     in: .userDomainMask,
                                     appropriateFor: nil,
-                                    create: false)
+                                    create: true)
         .appendingPathComponent("scrums.data")
     }
     
