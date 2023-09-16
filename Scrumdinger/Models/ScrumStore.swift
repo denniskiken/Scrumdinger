@@ -1,9 +1,6 @@
-//
-//  ScrumStore.swift
-//  Scrumdinger
-//
-//  Created by Dennis Kikendall on 9/15/23.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
 
@@ -11,7 +8,7 @@ import SwiftUI
 class ScrumStore: ObservableObject {
     @Published var scrums: [DailyScrum] = []
     
-    private static func fileURL() throws ->URL {
+    private static func fileURL() throws -> URL {
         try FileManager.default.url(for: .documentDirectory,
                                     in: .userDomainMask,
                                     appropriateFor: nil,
@@ -20,7 +17,6 @@ class ScrumStore: ObservableObject {
     }
     
     func load() async throws {
-        
         let task = Task<[DailyScrum], Error> {
             let fileURL = try Self.fileURL()
             guard let data = try? Data(contentsOf: fileURL) else {
@@ -41,5 +37,4 @@ class ScrumStore: ObservableObject {
         }
         _ = try await task.value
     }
-    
 }

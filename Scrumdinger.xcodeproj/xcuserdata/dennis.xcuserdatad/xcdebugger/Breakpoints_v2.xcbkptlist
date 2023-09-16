@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "01CFA43A-4BEB-4DB5-8794-81A3F335116B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE4FD527-D1CF-4223-80BC-C770EAF6D8F7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Scrumdinger/Models/ScrumStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "save(scrums:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BE4FD527-D1CF-4223-80BC-C770EAF6D8F7 - a4bc8533b995b120"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Scrumdinger.ScrumStore.save(scrums: Swift.Array&lt;Scrumdinger.DailyScrum&gt;) async throws -&gt; ()"
+                  moduleName = "Scrumdinger"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dennis/swiftproj/Scrumdinger/Scrumdinger/Models/ScrumStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "BE4FD527-D1CF-4223-80BC-C770EAF6D8F7 - 68b8beb39d8f0233"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async throws -&gt; () in Scrumdinger.ScrumStore.save(scrums: Swift.Array&lt;Scrumdinger.DailyScrum&gt;) async throws -&gt; ()"
+                  moduleName = "Scrumdinger"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dennis/swiftproj/Scrumdinger/Scrumdinger/Models/ScrumStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "BE4FD527-D1CF-4223-80BC-C770EAF6D8F7 - faeaa926eb49337"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in Scrumdinger.ScrumStore.save(scrums: Swift.Array&lt;Scrumdinger.DailyScrum&gt;) async throws -&gt; ()"
+                  moduleName = "Scrumdinger"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dennis/swiftproj/Scrumdinger/Scrumdinger/Models/ScrumStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
