@@ -37,4 +37,14 @@ class ScrumStore: ObservableObject {
         }
         _ = try await task.value
     }
+    
+    //-- DJK added delete
+    func delete(scrum: DailyScrum) {
+        if let ndx = self.scrums.firstIndex(where: { $0.id == scrum.id } ) {
+            print("delete item: \(ndx)")
+            self.scrums.remove(at: 0)
+        } else {
+            print("\(scrum.title) not found")
+        }
+    }
 }

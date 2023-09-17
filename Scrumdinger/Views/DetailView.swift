@@ -7,6 +7,9 @@ import SwiftUI
 struct DetailView: View {
     @Binding var scrum: DailyScrum
     @State private var editingScrum = DailyScrum.emptyScrum
+    @StateObject private var store = ScrumStore()
+    @Environment(\.dismiss) var dismiss
+
 
     @State private var isPresentingEditView = false
     
@@ -56,9 +59,16 @@ struct DetailView: View {
         }
         .navigationTitle(scrum.title)
         .toolbar {
-            Button("Edit") {
-                isPresentingEditView = true
-                editingScrum = scrum
+            HStack {
+                // DJK added Delete
+                Button("Delete") {
+                    store.delete( scrum: scrum )
+                    dismiss()
+                }
+                Button("Edit") {
+                    isPresentingEditView = true
+                    editingScrum = scrum
+                }
             }
         }
         .sheet(isPresented: $isPresentingEditView) {
