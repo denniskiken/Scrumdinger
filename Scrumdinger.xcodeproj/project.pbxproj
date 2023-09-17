@@ -31,6 +31,7 @@
 		95A55C552AB5B6D900CE8ACE /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A55C542AB5B6D900CE8ACE /* ScrumStore.swift */; };
 		95A55C572AB5B7A800CE8ACE /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A55C562AB5B7A800CE8ACE /* ScrumdingerApp.swift */; };
 		95ADF7402AB72E85003CF38A /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADF73F2AB72E85003CF38A /* SpeechRecognizer.swift */; };
+		95ADF7422AB7345C003CF38A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADF7412AB7345C003CF38A /* HistoryView.swift */; };
 		95BAE6072AAD4A8F006C8746 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BAE6062AAD4A8F006C8746 /* TrailingIconLabelStyle.swift */; };
 		AAAE8024294793AB0099DABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAE8023294793AB0099DABC /* Assets.xcassets */; };
 		AAAE8027294793AB0099DABC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAE8026294793AB0099DABC /* Preview Assets.xcassets */; };
@@ -62,6 +63,7 @@
 		95A55C562AB5B7A800CE8ACE /* ScrumdingerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		95ADF73E2AB72CBC003CF38A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		95ADF73F2AB72E85003CF38A /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		95ADF7412AB7345C003CF38A /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		95BAE6062AAD4A8F006C8746 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		AAAE801C294793AB0099DABC /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAAE8023294793AB0099DABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				955442AB2AB39B5900F89C95 /* DetailEditView.swift */,
 				955442AD2AB39B7000F89C95 /* DetailView.swift */,
 				95A55C4E2AB5AC0500CE8ACE /* ErrorView.swift */,
+				95ADF7412AB7345C003CF38A /* HistoryView.swift */,
 				955442AF2AB39B9700F89C95 /* MeetingFooterView.swift */,
 				955442B12AB39BB500F89C95 /* MeetingHeaderView.swift */,
 				957DD8EB2AB6592D00F26FF7 /* MeetingTimerView.swift */,
@@ -121,8 +124,8 @@
 				95A55C522AB5B6B300CE8ACE /* History.swift */,
 				95A55C542AB5B6D900CE8ACE /* ScrumStore.swift */,
 				95085E2B2AB2570F00980845 /* ScrumTimer.swift */,
-				955442A52AB39A3600F89C95 /* Theme.swift */,
 				95ADF73F2AB72E85003CF38A /* SpeechRecognizer.swift */,
+				955442A52AB39A3600F89C95 /* Theme.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				957DD8F22AB6883A00F26FF7 /* SpeakerArc.swift in Sources */,
 				95A55C4F2AB5AC0500CE8ACE /* ErrorView.swift in Sources */,
 				955442B82AB39C2C00F89C95 /* ScrumsView.swift in Sources */,
+				95ADF7422AB7345C003CF38A /* HistoryView.swift in Sources */,
 				957DD8EE2AB65A5C00F26FF7 /* DailyScrum.swift in Sources */,
 				957DD8EC2AB6592D00F26FF7 /* MeetingTimerView.swift in Sources */,
 				95085E2C2AB2570F00980845 /* ScrumTimer.swift in Sources */,
