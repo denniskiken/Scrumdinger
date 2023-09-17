@@ -93,10 +93,10 @@
 				959EBDBC2AB4830000C2E459 /* NewScrumSheet.swift */,
 				955442B52AB39C1400F89C95 /* ScrumProgressViewStyle.swift */,
 				955442B72AB39C2B00F89C95 /* ScrumsView.swift */,
+				957DD8F12AB6883A00F26FF7 /* SpeakerArc.swift */,
 				95BAE6062AAD4A8F006C8746 /* TrailingIconLabelStyle.swift */,
 				955FDCD92AB0F8AB0066AE86 /* ThemePicker.swift */,
 				955FDCD72AB0F49C0066AE86 /* ThemeView.swift */,
-				957DD8F12AB6883A00F26FF7 /* SpeakerArc.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
